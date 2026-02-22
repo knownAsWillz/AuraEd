@@ -30,7 +30,7 @@ export default function Phase0({ onComplete }) {
                 {/* Large Logo without background circle */}
                 <div className="mb-8 w-48 h-48 flex justify-center items-center">
                     <img
-                        src="/src/assets/Images/auraed.png"
+                        src="/Images/auraed.png"
                         alt="Aura-Ed Logo"
                         className="w-full h-full object-contain filter drop-shadow-md"
                         onError={(e) => { e.target.style.display = 'none'; }}

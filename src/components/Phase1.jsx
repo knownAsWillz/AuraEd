@@ -121,7 +121,7 @@ export default function Phase1({ onComplete, subjects, setSubjects, isDarkMode, 
                             onClick={() => setDropdownOpen(!dropdownOpen)}
                             className="w-10 h-10 bg-brand-50 dark:bg-gray-800 rounded-full flex items-center justify-center border border-brand-100 dark:border-gray-700 shadow-inner hover:ring-2 hover:ring-brand-400 focus:outline-none transition-all"
                         >
-                            <img src="/src/assets/Images/auraed.png" alt="Aura-Ed" className="w-7 h-7 object-contain" onError={(e) => { e.target.style.display = 'none'; }} />
+                            <img src="/Images/auraed.png" alt="Aura-Ed" className="w-7 h-7 object-contain" onError={(e) => { e.target.style.display = 'none'; }} />
                         </button>
 
                         <AnimatePresence>

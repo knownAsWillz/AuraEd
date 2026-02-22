@@ -6,13 +6,13 @@ const tutors = [
     {
         id: 'nchad',
         name: 'Nerdy Chad',
-        image: '/src/assets/Images/nchad.jpg',
+        image: '/Images/nchad.jpg',
         subtext: 'Maximum Logic. Zero Fluff.',
     },
     {
         id: 'equeen',
         name: 'Energy Queen',
-        image: '/src/assets/Images/equeen.jpg',
+        image: '/Images/equeen.jpg',
         subtext: 'High Energy. High Retention.',
     }
 ];
@@ -95,7 +95,7 @@ export default function Phase2({ onComplete, onTutorSelect, onBack }) {
                     initial={{ opacity: 0 }} animate={{ opacity: 1 }}
                 >
                     <div className="w-16 h-16 bg-brand-100 dark:bg-gray-800 rounded-full flex items-center justify-center mb-6 shadow-inner border border-brand-200 dark:border-gray-700">
-                        <img src="/src/assets/Images/auraed.png" alt="Aura-Ed" className="w-10 h-10 object-contain animate-bounce" onError={(e) => { e.target.style.display = 'none'; }} />
+                        <img src="/Images/auraed.png" alt="Aura-Ed" className="w-10 h-10 object-contain animate-bounce" onError={(e) => { e.target.style.display = 'none'; }} />
                     </div>
                     <div className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex gap-2 items-center">
                         <span>Generating</span>

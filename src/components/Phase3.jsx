@@ -3,9 +3,9 @@ import { useRef, useEffect, useState } from 'react';
 import { BookOpen, Bookmark, Reply, Heart, ArrowLeft, MoreHorizontal, Volume2, VolumeX, Play, ShieldAlert, Sparkles, CheckCircle2, RotateCcw } from 'lucide-react';
 
 const ALL_VIDEOS = [
-    { id: 1, src: '/src/assets/Videos/Encapsulation.mp4', title: '#Encapsulation', tutorImg: '/src/assets/Images/equeen.jpg', quizText: "What is the primary purpose of Encapsulation?", options: ["Exposing all data", "Data Hiding & Security", "Running faster", "Adding styles"], answerIndex: 1 },
-    { id: 2, src: '/src/assets/Videos/Polymorphism.mp4', title: '#Polymorphism', tutorImg: '/src/assets/Images/nchad.jpg', quizText: "Polymorphism allows objects to be treated as instances of their...", options: ["Parent class", "Variables", "Functions", "Databases"], answerIndex: 0 },
-    { id: 3, src: '/src/assets/Videos/Search.mp4', title: '#Search', tutorImg: '/src/assets/Images/nchad.jpg', quizText: "Which search algorithm is O(log n) on sorted arrays?", options: ["Linear Search", "Jump Search", "Binary Search", "Random Search"], answerIndex: 2 }
+    { id: 1, src: '/Videos/Encapsulation.mp4', title: '#Encapsulation', tutorImg: '/Images/equeen.jpg', quizText: "What is the primary purpose of Encapsulation?", options: ["Exposing all data", "Data Hiding & Security", "Running faster", "Adding styles"], answerIndex: 1 },
+    { id: 2, src: '/Videos/Polymorphism.mp4', title: '#Polymorphism', tutorImg: '/Images/nchad.jpg', quizText: "Polymorphism allows objects to be treated as instances of their...", options: ["Parent class", "Variables", "Functions", "Databases"], answerIndex: 0 },
+    { id: 3, src: '/Videos/Search.mp4', title: '#Search', tutorImg: '/Images/nchad.jpg', quizText: "Which search algorithm is O(log n) on sorted arrays?", options: ["Linear Search", "Jump Search", "Binary Search", "Random Search"], answerIndex: 2 }
 ];
 
 export default function Phase3({ onBack, likedVideos, setLikedVideos, auraScore, setAuraScore }) {
