@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-graphite-950 text-graphite-100 font-sans overflow-hidden antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif;
+  }
+}
+
+/* Hide scrollbar for smooth TikTok-like scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom Aesthetic Utilities found in UI phases */
+.hand-drawn-text {
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.marker-text {
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+}
